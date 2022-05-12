@@ -7,4 +7,4 @@ Route.group(() => {
 
 Route.get("/", async () => {
   return { hello: "world" };
-}).middleware(["auth", "authAdmin"]);
+}).middleware(["auth", "authMentor"]);

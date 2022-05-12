@@ -44,4 +44,5 @@ Server.middleware.register([
 Server.middleware.registerNamed({
   auth: () => import("App/Middleware/Auth"),
   authAdmin: () => import("App/Middleware/AuthAdmin"),
+  authMentor: () => import("App/Middleware/AuthMentor"),
 });
